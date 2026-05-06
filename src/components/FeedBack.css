@@ -1,0 +1,30 @@
+.feedback {
+    margin-top: 30px;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.feedback-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    resize: none;
+}
+
+.feedback-form button {
+    padding: 8px 12px;
+    background: #ff7c01;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.feedback-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}

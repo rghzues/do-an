@@ -1,0 +1,516 @@
+{
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "name": "ab",
+      "role": "admin",
+      "id": "nnJxnPZrTCM",
+      "phone": "0123456789"
+    },
+    {
+      "email": "user@gmail.com",
+      "password": "123456",
+      "name": "bc",
+      "role": "user",
+      "id": "Y52SqimrdvY",
+      "phone": "0123456789"
+    },
+    {
+      "fullname": "dat",
+      "email": "user1@gmail.com",
+      "password": "123456",
+      "name": "cd",
+      "role": "user",
+      "id": "WVRyjb1Ulf0",
+      "phone": "0123456789"
+    }
+  ],
+  "Categories": [
+    {
+      "name": "Cultural",
+      "id": "zrWzyhDtfdo"
+    },
+    {
+      "name": "Music",
+      "id": "gFnhLYEZcBA"
+    },
+    {
+      "name": "Food",
+      "id": "KDEaHxeHk9I"
+    },
+    {
+      "name": "Traditional",
+      "id": "cWo-PJmAngM"
+    },
+    {
+      "name": "Seasonal",
+      "id": "bS90WTu1JNs"
+    }
+  ],
+  "festival_categories": [
+    {
+      "festivalId": 1,
+      "categoryId": 2,
+      "id": "j6IyRWQ8fEI"
+    },
+    {
+      "festivalId": 1,
+      "categoryId": 1,
+      "id": "a4w__JP8Ank"
+    },
+    {
+      "id": "3",
+      "festivalId": 2,
+      "categoryId": 3
+    },
+    {
+      "id": "4",
+      "festivalId": 2,
+      "categoryId": 1
+    },
+    {
+      "id": "5",
+      "festivalId": 3,
+      "categoryId": 4
+    }
+  ],
+  "favorites": [
+    {
+      "userId": "nnJxnPZrTCM",
+      "festivalId": "arGS5HP0UWE",
+      "id": "hqvvyXIkAEQ"
+    },
+    {
+      "userId": "nnJxnPZrTCM",
+      "festivalId": "AsAwV0owNeo",
+      "id": "ejYImgUQSts"
+    }
+  ],
+  "feedbacks": [
+    {
+      "userId": "WVRyjb1Ulf0",
+      "festivalId": "CQ-plA5cdTs",
+      "content": "năm ngoái đi bị đá mất đôi dép may vẫn nhặt đc đôi giày ",
+      "rating": 1,
+      "date": "2026-05-24",
+      "id": "fTjQftj_JC0"
+    },
+    {
+      "userId": "Y52SqimrdvY",
+      "festivalId": "arGS5HP0UWE",
+      "content": "chơi về ra sông hằng tắm nữa thì còn gì bằng",
+      "rating": 5,
+      "date": "2026-05-24",
+      "id": "DRS1baI7DA4"
+    },
+    {
+      "userId": "WVRyjb1Ulf0",
+      "festivalId": "BwVyeAhrr0M",
+      "content": "sao mình ở vn mà chưa nghe lễ hội này bao giờ nhỉ",
+      "rating": 3,
+      "date": "2026-05-24",
+      "id": "MMM-vwCT2qg"
+    }
+  ],
+  "feedbacksLikes": [
+    {
+      "id": "1",
+      "feedbacksId": "fTjQftj_JC0",
+      "userId": "nnJxnPZrTCM"
+    }
+  ],
+  "countries": [
+    {
+      "name": "Vietnam",
+      "id": "HvCwo1_9FrQ"
+    },
+    {
+      "name": "USA",
+      "id": "yQzi-79Ubqw"
+    },
+    {
+      "name": "Japan",
+      "id": "1ooW8UkPJmE"
+    },
+    {
+      "name": "Brazil",
+      "id": "CMenCEZrx8E"
+    },
+    {
+      "name": "South Korea",
+      "id": "w8-GM19LB2E"
+    },
+    {
+      "name": "Germany",
+      "id": "jrC5ktZvFc8"
+    },
+    {
+      "name": "India",
+      "id": "ZP2va5kboX4"
+    },
+    {
+      "name": "Thailand",
+      "id": "KU_N6gGcqQI"
+    },
+    {
+      "name": "Ireland",
+      "id": "7I6Hy6WASb4"
+    },
+    {
+      "name": "China",
+      "id": "i3t3PP9v4Qg"
+    },
+    {
+      "name": "Mongolia",
+      "id": "ddSK8u4T-Ak"
+    },
+    {
+      "name": "Mexico",
+      "id": "ixwlbx3Kcs0"
+    },
+    {
+      "name": "World",
+      "id": "AJLeRHAjAfg"
+    }
+  ],
+  "religions": [
+    {
+      "name": "Christian",
+      "id": "gVkX0p9OKo8"
+    },
+    {
+      "name": "Buddhist",
+      "id": "WxrMekIfADQ"
+    },
+    {
+      "name": "Islam",
+      "id": "ZKCDxFCT_ko"
+    },
+    {
+      "name": "Catholic",
+      "id": "c77JMh_NXEY"
+    },
+    {
+      "name": "Shinto",
+      "id": "5CPTctBZ-uA"
+    },
+    {
+      "name": "Hindu",
+      "id": "vZVtGZZl_Iw"
+    },
+    {
+      "name": "None",
+      "id": "Z2_umo90iiU"
+    }
+  ],
+  "festivals": [
+    {
+      "name": "Tet Nguyen Dan",
+      "country_id": "HvCwo1_9FrQ",
+      "religion_id": "None",
+      "startDate": "2026-05-28",
+      "endDate": "2026-02-03",
+      "images": [
+        "/images/tet.jpg"
+      ],
+      "description": "Tết Nguyên Đán là lễ hội truyền thống quan trọng nhất của người Việt Nam",
+      "file": [
+        "tet.pdf"
+      ],
+      "updatedAt": "2026-05-02",
+      "id": "BwVyeAhrr0M",
+      "history": "Tết Nguyên Đán có lịch sử hàng nghìn năm, đánh dấu thời khắc chuyển giao giữa năm cũ và năm mới theo âm lịch. Đây là dịp để mọi người sum họp gia đình, tưởng nhớ tổ tiên và gửi gắm những mong ước tốt đẹp cho một năm mới an khang, thịnh vượng. Trước Tết, các gia đình thường dọn dẹp nhà cửa, trang trí hoa đào, hoa mai, cây quất và chuẩn bị nhiều món ăn truyền thống như bánh chưng, bánh tét, mứt Tết. Trong những ngày đầu năm, người dân đi chúc Tết họ hàng, lì xì trẻ nhỏ, du xuân và tham gia nhiều hoạt động văn hóa đặc sắc. Không khí Tết luôn rộn ràng, ấm áp và mang đậm bản sắc dân tộc, trở thành nét đẹp không thể thiếu trong đời sống người Việt."
+    },
+    {
+      "name": "Christmas",
+      "country_id": "yQzi-79Ubqw",
+      "religion_id": "gVkX0p9OKo8",
+      "startDate": "2026-05-24",
+      "endDate": "2026-12-26",
+      "images": [
+        "/images/christmas.jpg"
+      ],
+      "description": "Giáng Sinh là lễ hội quan trọng của người theo đạo Kitô giáo",
+      "file": [
+        "christmas.pdf"
+      ],
+      "updatedAt": "2026-03-27",
+      "id": "gXOvepyzg90",
+      "history": "Lễ Giáng Sinh bắt nguồn từ Kitô giáo nhằm kỷ niệm ngày Chúa Jesus ra đời tại Bethlehem. Từ thế kỷ IV, ngày 25 tháng 12 được chọn làm ngày lễ chính thức và dần lan rộng khắp châu Âu. Qua thời gian, Christmas không chỉ mang ý nghĩa tôn giáo mà còn trở thành dịp đoàn tụ gia đình, trao quà và lan tỏa tinh thần yêu thương trên toàn thế giới. Theo thời gian, đây không chỉ là ngày lễ tôn giáo mà còn trở thành dịp lễ lớn mang ý nghĩa sum họp, yêu thương và sẻ chia trên khắp thế giới. Vào mùa Giáng Sinh, các thành phố được trang hoàng rực rỡ với cây thông Noel, ánh đèn lung linh, vòng lá mùa vọng và những bản nhạc quen thuộc. Nhiều gia đình quây quần bên nhau, trao tặng quà, dùng bữa tối ấm cúng và tham dự thánh lễ tại nhà thờ vào đêm 24 hoặc ngày 25 tháng 12. Hình ảnh ông già Noel, tuần lộc và những món quà cũng góp phần tạo nên bầu không khí vui tươi, ấm áp và đầy hy vọng của mùa lễ hội cuối năm."
+    },
+    {
+      "name": "Easter",
+      "country_id": "jrC5ktZvFc8",
+      "religion_id": "gVkX0p9OKo8",
+      "startDate": "2026-05-05",
+      "endDate": "2026-04-06",
+      "images": [
+        "/images/easter.webp"
+      ],
+      "description": "Easter là lễ Phục Sinh quan trọng nhất trong Kitô giáo",
+      "file": [
+        "easter.pdf"
+      ],
+      "updatedAt": "2026-04-29",
+      "id": "CQ-plA5cdTs",
+      "history": "Lễ Phục Sinh là một trong những ngày lễ quan trọng nhất của Kitô giáo, tưởng niệm sự phục sinh của Chúa Jesus sau khi bị đóng đinh. Nguồn gốc lễ này xuất hiện từ những thế kỷ đầu Công nguyên và gắn liền với đức tin về sự sống mới, hy vọng và cứu rỗi. Ngày nay, Easter được tổ chức rộng rãi với thánh lễ, trứng phục sinh và nhiều hoạt động cộng đồng. Đây là biểu tượng của niềm tin, hy vọng và sự tái sinh trong đời sống tôn giáo. Tại Đức cũng như nhiều quốc gia phương Tây, Easter không chỉ mang ý nghĩa thiêng liêng mà còn là dịp lễ hội truyền thống gắn kết gia đình. Người dân thường tham dự thánh lễ tại nhà thờ, trang trí trứng phục sinh đầy màu sắc, tổ chức trò chơi săn trứng cho trẻ em và trao nhau những món quà ngọt ngào từ hình tượng thỏ Easter Bunny. Không khí lễ hội diễn ra ấm áp, vui tươi nhưng vẫn trang nghiêm, tạo nên một trong những dịp lễ được mong chờ nhất trong năm."
+    },
+    {
+      "name": "Songkran",
+      "country_id": "KU_N6gGcqQI",
+      "religion_id": "WxrMekIfADQ",
+      "startDate": "2026-05-13",
+      "endDate": "2026-04-15",
+      "images": [
+        "/images/songkran.webp"
+      ],
+      "description": "Songkran là Tết cổ truyền của Thái Lan, có nguồn gốc từ văn hóa Ấn Độ và lịch mặt trời cổ xưa. Lễ hội đánh dấu năm mới truyền thống, thường diễn ra vào tháng 4 hằng năm. Ban đầu Songkran mang ý nghĩa thanh tẩy, cầu may và kính trọng người lớn tuổi, sau này nổi tiếng toàn cầu với các hoạt động té nước sôi động trên đường phố. Lễ hội mang ý nghĩa gột rửa những điều không may của năm cũ và cầu chúc may mắn, bình an cho năm mới. Trong dịp này, người dân thường đến chùa làm lễ, dâng thức ăn cho các nhà sư, té nước chúc phúc cho người thân và tham gia các hoạt động văn hóa sôi động trên đường phố. Hình ảnh mọi người vui vẻ té nước cho nhau đã trở thành biểu tượng nổi tiếng của Songkran, thu hút đông đảo du khách từ khắp nơi trên thế giới. Không khí lễ hội luôn náo nhiệt, tươi vui và đậm đà bản sắc văn hóa Thái Lan.",
+      "file": [
+        "songkran.pdf"
+      ],
+      "updatedAt": "2025-12-12",
+      "id": "AsAwV0owNeo",
+      "history": ""
+    },
+    {
+      "name": "Holi",
+      "country_id": "ZP2va5kboX4",
+      "religion_id": "vZVtGZZl_Iw",
+      "startDate": "2026-05-15",
+      "endDate": "2026-03-17",
+      "images": [
+        "/images/holi.webp"
+      ],
+      "description": "Holi là lễ hội sắc màu nổi tiếng của Ấn Độ",
+      "file": [
+        "holi.pdf"
+      ],
+      "updatedAt": "2026-03-06",
+      "id": "arGS5HP0UWE",
+      "history": "Holi là lễ hội truyền thống của Ấn Độ có lịch sử hàng nghìn năm, gắn với vZVtGZZl_Iw giáo và biểu tượng chiến thắng của cái thiện trước cái ác. Lễ hội diễn ra vào mùa xuân, đánh dấu sự tái sinh của thiên nhiên và khởi đầu mới trong năm. Từ xa xưa, Holi đã là dịp để cộng đồng sum họp, xóa bỏ hiềm khích và tăng cường tình đoàn kết. Ngày nay, Holi nổi tiếng khắp thế giới với hoạt động ném bột màu, té nước, ca hát và nhảy múa trong bầu không khí sôi động. Với sắc màu rực rỡ và tinh thần gắn kết, Holi trở thành một trong những biểu tượng văn hóa đặc sắc nhất của Ấn Độ."
+    },
+    {
+      "name": "Oktoberfest",
+      "country_id": "jrC5ktZvFc8",
+      "religion_id": "None",
+      "startDate": "2026-09-19",
+      "endDate": "2026-10-04",
+      "images": [
+        "/images/oktoberfest.webp"
+      ],
+      "description": "Oktoberfest là lễ hội bia lớn nhất thế giới.",
+      "file": [
+        "oktoberfest.pdf"
+      ],
+      "updatedAt": "2026-05-01",
+      "id": "zaAGQV01UIo",
+      "history": "Oktoberfest bắt nguồn từ thành phố Munich, Đức vào năm 1810 nhân dịp lễ cưới của Thái tử Ludwig và Công chúa Therese. Sự kiện ban đầu là lễ hội cộng đồng với đua ngựa và tiệc mừng dành cho người dân, sau đó được tổ chức thường niên nhờ sự yêu thích rộng rãi. Qua thời gian, Oktoberfest phát triển thành lễ hội bia lớn nhất thế giới, thu hút hàng triệu du khách mỗi năm. Ngày nay, sự kiện nổi tiếng với bia truyền thống Bavaria, ẩm thực đặc sắc, trang phục lederhosen và không khí náo nhiệt đậm chất Đức."
+    },
+    {
+      "name": "Chuseok",
+      "country_id": "w8-GM19LB2E",
+      "religion_id": "None",
+      "startDate": "2026-09-24",
+      "endDate": "2026-09-26",
+      "images": [
+        "/images/chuseok.jpg"
+      ],
+      "description": "Chuseok là Tết Trung Thu truyền thống của Hàn Quốc.",
+      "file": [
+        "chuseok.pdf"
+      ],
+      "updatedAt": "2026-04-30",
+      "id": "_pAbuvZKa4k",
+      "history": "Chuseok là lễ hội mùa thu truyền thống quan trọng của Hàn Quốc, có nguồn gốc từ xã hội nông nghiệp cổ đại và phong tục tạ ơn mùa màng bội thu. Từ hàng nghìn năm trước, đây đã là dịp các gia đình sum họp, tưởng nhớ tổ tiên và cầu mong cuộc sống sung túc. Qua nhiều thế kỷ, Chuseok trở thành một trong những ngày lễ lớn nhất Hàn Quốc với các nghi thức cúng lễ, thăm mộ tổ tiên và chia sẻ giá trị gia đình. Ngày nay, người dân thường mặc hanbok, thưởng thức bánh songpyeon và tham gia các trò chơi dân gian truyền thống."
+    },
+    {
+      "name": "Cherry Blossom Festival",
+      "country_id": "1ooW8UkPJmE",
+      "religion_id": "None",
+      "startDate": "2026-03-25",
+      "endDate": "2026-04-10",
+      "images": [
+        "/images/sakura.webp"
+      ],
+      "description": "Lễ hội hoa anh đào tại Nhật Bản là một trong những sự kiện văn hóa nổi tiếng và được mong chờ nhất mỗi năm.",
+      "file": [
+        "sakura.pdf"
+      ],
+      "updatedAt": "2026-02-29",
+      "id": "a_1hE8IpCwU",
+      "history": "Cherry Blossom Festival có nguồn gốc từ truyền thống ngắm hoa anh đào của Nhật Bản, được duy trì qua nhiều thế kỷ như biểu tượng của vẻ đẹp và sự ngắn ngủi của cuộc sống. Vào mùa xuân, người dân tụ họp dưới tán hoa để picnic, thưởng ngoạn thiên nhiên và chào đón năm mới đầy hy vọng. Từ Nhật Bản, lễ hội hoa anh đào đã lan rộng ra nhiều quốc gia và trở thành sự kiện văn hóa thu hút đông đảo du khách mỗi năm."
+    },
+    {
+      "name": "Carnival Rio",
+      "country_id": "CMenCEZrx8E",
+      "religion_id": "c77JMh_NXEY",
+      "startDate": "2026-02-13",
+      "endDate": "2026-02-17",
+      "images": [
+        "/images/rio.webp"
+      ],
+      "description": "Carnival Rio là lễ hội hóa trang lớn nhất thế giới.",
+      "file": [
+        "rio.pdf"
+      ],
+      "updatedAt": "2026-01-27",
+      "id": "q7tXBnbKI24",
+      "history": "Carnival Rio là lễ hội nổi tiếng của Brazil, hình thành từ sự kết hợp giữa truyền thống châu Âu, văn hóa Phi châu và bản sắc Latin America. Ban đầu đây là dịp ăn mừng trước mùa Chay của Kitô giáo, sau đó phát triển thành sự kiện đường phố sôi động bậc nhất thế giới. Ngày nay, Carnival Rio nổi tiếng với các đoàn diễu hành samba, trang phục rực rỡ và bầu không khí cuồng nhiệt thu hút hàng triệu người tham dự."
+    },
+    {
+      "name": "Lantern Festival",
+      "country_id": "i3t3PP9v4Qg",
+      "religion_id": "WxrMekIfADQ",
+      "startDate": "2026-02-11",
+      "endDate": "2026-02-11",
+      "images": [
+        "/images/lantern.webp"
+      ],
+      "description": "Lễ hội đèn lồng của Trung Quốc là một lễ hội truyền thống đặc sắc, thường được tổ chức vào ngày rằm tháng Giêng âm lịch .",
+      "file": [
+        "lantern.pdf"
+      ],
+      "updatedAt": "2025-11-22",
+      "id": "U4cpD_IgLyw",
+      "history": "Lantern Festival có lịch sử hơn hai nghìn năm tại Trung Quốc, diễn ra vào rằm tháng Giêng âm lịch để khép lại chuỗi ngày mừng năm mới. Ban đầu lễ hội gắn với nghi thức cầu phúc, xua đuổi điều xấu và tôn vinh ánh sáng trong đời sống tinh thần. Qua thời gian, Lantern Festival trở nên nổi tiếng với hoạt động treo đèn lồng, giải câu đố và thưởng thức bánh trôi ngọt truyền thống trong không khí đoàn viên."
+    },
+    {
+      "name": "Halloween",
+      "country_id": "yQzi-79Ubqw",
+      "religion_id": "None",
+      "startDate": "2026-10-31",
+      "endDate": "2026-10-31",
+      "images": [
+        "/images/halloween.webp"
+      ],
+      "description": "Halloween là lễ hội hóa trang nổi tiếng của phương Tây.",
+      "file": [
+        "halloween.pdf"
+      ],
+      "updatedAt": "2026-02-13",
+      "id": "-kPJJY_Xz2k",
+      "history": "Halloween có nguồn gốc từ lễ hội Samhain của người Celt cổ đại cách đây hơn 2.000 năm tại Ireland và Scotland. Người xưa tin rằng vào đêm 31/10, ranh giới giữa thế giới người sống và linh hồn trở nên mong manh nên họ đốt lửa lớn và hóa trang để xua đuổi ma quỷ. Khi Kitô giáo lan rộng, lễ này dần gắn với All Hallows' Eve và phát triển thành Halloween hiện đại. Ngày nay, Halloween nổi tiếng toàn cầu với hoạt động hóa trang, khắc bí ngô và xin kẹo Trick-or-Treat."
+    },
+    {
+      "name": "Mid-Autumn Festival",
+      "country_id": "i3t3PP9v4Qg",
+      "religion_id": "None",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-21",
+      "images": [
+        "/images/moon.jpg"
+      ],
+      "description": "Tết Trung Thu là lễ hội đoàn viên truyền thống.",
+      "file": [
+        "moon.pdf"
+      ],
+      "updatedAt": "2026-05-21",
+      "id": "O5MvoSfphWg",
+      "history": "Mid-Autumn Festival có lịch sử hơn 3.000 năm, bắt nguồn từ các nghi lễ tạ ơn mùa màng và tục ngắm trăng tại Trung Hoa cổ đại. Lễ hội dần trở thành dịp sum họp gia đình, thưởng trăng và cầu mong hạnh phúc, đoàn viên. Theo thời gian, Tết Trung Thu lan rộng sang nhiều nước châu Á như Việt Nam, Hàn Quốc và Nhật Bản với những nét riêng. Ngày nay, lễ hội nổi bật với bánh trung thu, đèn lồng và các hoạt động vui chơi dành cho trẻ em."
+    },
+    {
+      "name": "Thanksgiving",
+      "country_id": "yQzi-79Ubqw",
+      "religion_id": "gVkX0p9OKo8",
+      "startDate": "2026-11-26",
+      "endDate": "2026-11-26",
+      "images": [
+        "/images/thanksgiving.webp"
+      ],
+      "description": "Thanksgiving là ngày lễ Tạ Ơn truyền thống, được tổ chức chủ yếu tại Hoa Kỳ và Canada.",
+      "file": [
+        "thanksgiving.pdf"
+      ],
+      "updatedAt": "2026-04-02",
+      "id": "ywsBceJ0B6I",
+      "history": "Thanksgiving bắt nguồn từ bữa tiệc thu hoạch năm 1621 giữa những người Pilgrim tại Plymouth và người bản địa Wampanoag ở Bắc Mỹ. Đây là dịp tạ ơn vì mùa màng bội thu và sự giúp đỡ trong giai đoạn khó khăn đầu tiên. Đến thế kỷ 19, lễ này được Hoa Kỳ công nhận là ngày lễ quốc gia và sau đó lan sang Canada với thời điểm khác nhau. Ngày nay, Thanksgiving là dịp sum họp gia đình với bữa tối truyền thống gồm gà tây, khoai tây nghiền và bánh bí ngô."
+    },
+    {
+      "name": "St Patrick's Day",
+      "country_id": "7I6Hy6WASb4",
+      "religion_id": "gVkX0p9OKo8",
+      "startDate": "2026-03-17",
+      "endDate": "2026-03-17",
+      "images": [
+        "/images/patrick.webp"
+      ],
+      "description": "Ngày Thánh Patrick của Ireland là lễ hội truyền thống nổi tiếng được tổ chức vào ngày 17 tháng 3 hằng năm để tưởng nhớ Thánh Patrick.",
+      "file": [
+        "patrick.pdf"
+      ],
+      "updatedAt": "2026-03-25",
+      "id": "UADyBWROuLY",
+      "history": "St. Patrick's Day tưởng niệm Thánh Patrick, vị thánh bảo trợ đã góp phần truyền bá Kitô giáo tại Ireland vào thế kỷ thứ 5. Ban đầu đây là ngày lễ tôn giáo của người Ireland, sau đó phát triển thành lễ hội văn hóa tôn vinh bản sắc dân tộc Ireland trên toàn thế giới. Những đoàn người nhập cư Ireland đã mang ngày lễ này đến Mỹ, Canada và nhiều quốc gia khác. Ngày nay, St. Patrick's Day nổi tiếng với màu xanh lá, diễu hành đường phố và các hoạt động âm nhạc sôi động."
+    },
+    {
+      "name": "Gion Matsuri",
+      "country_id": "1ooW8UkPJmE",
+      "religion_id": "5CPTctBZ-uA",
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-31",
+      "images": [
+        "/images/gion.webp"
+      ],
+      "description": "Gion Matsuri là lễ hội truyền thống nổi tiếng nhất của Kyoto, Nhật Bản, diễn ra vào mùa hè hằng năm.",
+      "file": [
+        "gion.pdf"
+      ],
+      "updatedAt": "2026-04-07",
+      "id": "0qUJlg9Iywk",
+      "history": "Gion Matsuri bắt nguồn từ thế kỷ 9 tại Kyoto nhằm xua đuổi dịch bệnh và cầu bình an cho người dân. Theo thời gian, lễ hội phát triển thành sự kiện văn hóa lớn với các đoàn diễu hành Yamaboko đặc trưng. Người dân tham gia mặc kimono, diễu hành xe rước và tổ chức nhiều hoạt động truyền thống suốt tháng 7. Ngày nay, Gion Matsuri là một trong những lễ hội quan trọng nhất Nhật Bản, thu hút hàng triệu du khách mỗi năm."
+    },
+    {
+      "name": "Naadam Festival",
+      "country_id": "ddSK8u4T-Ak",
+      "religion_id": "None",
+      "startDate": "2026-07-11",
+      "endDate": "2026-07-13",
+      "images": [
+        "/images/naadam.jpg"
+      ],
+      "description": "Naadam là lễ hội truyền thống nổi tiếng của Mông Cổ,nổi bật với các môn thể thao cổ truyền.",
+      "file": [
+        "naadam.pdf"
+      ],
+      "updatedAt": "2026-02-17",
+      "id": "0W0ZwSrroUo",
+      "history": "Naadam gắn liền với ba môn thể thao đặc trưng gồm đấu vật, đua ngựa và bắn cung. Đây là sự kiện văn hóa quan trọng được tổ chức hằng năm nhằm tôn vinh tinh thần thượng võ, sức mạnh và lối sống du mục lâu đời của người Mông Cổ. Trong dịp lễ hội, những đô vật khoác trang phục truyền thống tranh tài quyết liệt, các kỵ sĩ điều khiển ngựa phi nước đại trên thảo nguyên rộng lớn và các cung thủ thể hiện kỹ năng bắn cung chính xác. Bên cạnh các cuộc thi, người dân còn ca hát, nhảy múa và tham gia nhiều hoạt động cộng đồng sôi động. Naadam không chỉ là ngày hội thể thao mà còn là biểu tượng văn hóa đầy tự hào của Mông Cổ."
+    },
+    {
+      "name": "Day of the Dead",
+      "country_id": "ixwlbx3Kcs0",
+      "religion_id": "c77JMh_NXEY",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-02",
+      "images": [
+        "/images/dead.webp"
+      ],
+      "description": "Day of the Dead là lễ hội truyền thống của Mexico nhằm tưởng nhớ và tôn vinh người đã khuất.",
+      "file": [
+        "dead.pdf"
+      ],
+      "updatedAt": "2026-04-20",
+      "id": "LAX9zdtS_GM",
+      "history": "Day of the Dead bắt nguồn từ văn hóa Aztec cổ đại và được kết hợp với tín ngưỡng Công giáo sau này. Lễ hội diễn ra vào đầu tháng 11, khi các gia đình tin rằng linh hồn người thân sẽ trở về thăm họ. Người dân dựng bàn thờ, trang trí hoa cúc vạn thọ và chuẩn bị đồ ăn yêu thích của người đã mất. Ngày nay, đây là một trong những lễ hội đặc sắc nhất thế giới, mang sắc màu vừa trang nghiêm vừa rực rỡ."
+    },
+    {
+      "name": "Obon Festival",
+      "country_id": "1ooW8UkPJmE",
+      "religion_id": "WxrMekIfADQ",
+      "startDate": "2026-08-13",
+      "endDate": "2026-08-16",
+      "images": [
+        "/images/obon.webp"
+      ],
+      "description": "Obon là lễ hội truyền thống của Nhật Bản nhằm tưởng nhớ và tri ân tổ tiên.",
+      "file": [
+        "obon.pdf"
+      ],
+      "updatedAt": "2026-04-27",
+      "id": "TuDEwaFYbt0",
+      "history": "Obon có lịch sử hơn 500 năm và bắt nguồn từ Phật giáo, mang ý nghĩa linh hồn người đã khuất quay về thăm gia đình. Trong dịp lễ, người dân dọn dẹp mộ phần, thắp đèn lồng và chuẩn bị lễ cúng. Nhiều nơi tổ chức múa Bon Odori và các hoạt động cộng đồng. Khi kết thúc lễ hội, đèn hoa đăng được thả trôi để tiễn linh hồn trở về thế giới bên kia."
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

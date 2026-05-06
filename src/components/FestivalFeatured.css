@@ -1,0 +1,51 @@
+.festival-featured {
+  position: relative;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.festival-featured .img-box {
+  overflow: hidden;
+  transition: transform ease;
+  height: 100%;
+}
+
+.img-box img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.festival-featured:hover .img-box, .festival-featured:hover .info {
+  transform: translateY(-5px);
+}
+
+.festival-featured .info {
+  position: absolute;
+  bottom: 7px;
+  right: 3px;
+  padding: 12px;
+  color: #ffffff;
+  transition: transform ease;
+}
+
+.festival-featured .info h3 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.festival-featured .info p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+.festival-featured .img-box::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(350deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(255, 255, 255, 0.2));
+  pointer-events: none;
+}

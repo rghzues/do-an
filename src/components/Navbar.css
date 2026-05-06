@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    gap: 40px;
+    padding: 12px 20px;
+}
+
+.nav-link {
+    color: #222;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+
+}
+
+.nav-link:hover {
+    color: #01b7ff;
+    transform: translateY(-5px);
+    font-weight: 700;
+}
+
+.nav-link.active {
+    color: #01b7ff;
+    font-weight: 700;
+}

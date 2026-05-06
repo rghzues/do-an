@@ -1,0 +1,28 @@
+.rat:active {
+    filter: blur(10px);
+}
+
+.meow-wrapper {
+    display: flex;
+    gap: 6px;
+}
+
+.meow {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    transform-origin: center;
+    color: #ffffff;
+}
+
+.meow:hover {
+    transform: scale(1.2);
+}
+
+.meow.active {
+    fill: gold;
+    transform: scale(1.1);
+}
+
+.meow:active {
+    transform: scale(0.9);
+}

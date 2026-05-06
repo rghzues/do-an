@@ -1,0 +1,241 @@
+.festival-card {
+    display: flex;
+    cursor: pointer;
+    height: 100%;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.festival-card .box {
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+    position: relative;
+}
+
+.festival-card .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.45s ease;
+}
+
+.festival-card:hover .box img {
+    transform: scale(1.08);
+}
+
+.festival-card:not(.month) .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid rgb(208, 206, 206);
+    border-radius: 18px;
+    transition: transform 0.4s ease;
+}
+
+.festival-card:not(.month):hover .box img {
+    transform: scale(1.08);
+}
+
+.festival-card:not(.month) .info {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.festival-card:not(.month) .info-left {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: end;
+}
+
+.festival-card:not(.month):hover {
+    transform: translateY(-6px);
+}
+
+.festival-card:not(.month):hover .info {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.festival-card .info {
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 1;
+}
+
+.festival-card .info h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.festival-card .info span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    width: fit-content;
+    padding: 8px 14px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+span.like-btn.active {
+    background: rgba(255, 60, 57, 0.6);
+}
+
+.like-btn:not(.active) {
+    border: solid 1px rgb(140, 138, 138)
+}
+
+.info-left h3 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.info-left span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.info-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.info-right h4 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.festival-card.currently::before,
+.festival-card.upcoming::before,
+.festival-card.past::before {
+    opacity: 0;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    z-index: 10;
+}
+
+.festival-card.currently::before {
+    content: "Đang diễn ra";
+    background: rgba(255, 47, 47, 0.6);
+}
+
+.festival-card.upcoming::before {
+    content: "Sắp diễn ra";
+    background: rgba(41, 198, 251, 0.6);
+}
+
+.festival-card.past::before {
+    content: "Đã kết thúc";
+    background: rgb(161, 158, 158);
+}
+
+.festival-card.month .box {
+    height: 420px;
+}
+
+.festival-card.month .img {
+    border-radius: 30px;
+    transition: border-radius 5s ease;
+    overflow: hidden;
+    height: 90%;
+
+}
+
+.festival-card.month .info-left {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: end;
+}
+
+.festival-card.month span.like-btn {
+    position: absolute;
+    opacity: 0;
+    top: 20px;
+    right: 20px;
+}
+
+.festival-card.month:hover .img {
+    border-radius: 0px;
+}
+
+.festival-card.month:hover.festival-card.currently::before,
+.festival-card.month:hover.festival-card.upcoming::before,
+.festival-card.month:hover.festival-card.past::before {
+    opacity: 1;
+}
+
+.festival-card.month:hover .like-btn,
+.festival-card.month span.like-btn.active {
+    opacity: 1;
+}
+
+.festival-card.gallery .box, .festival-card.gallery .box .img {
+    height: 100%;
+}
+
+.festival-card.gallery::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(50deg,
+            rgba(0, 0, 0, 0.75),
+            rgba(244, 102, 41, 0.2));
+    z-index: 1;
+}
+
+.festival-card.gallery:hover::after {
+    background: linear-gradient(110deg,
+            rgba(250, 250, 250, 0.3),
+            rgba(58, 202, 251, 0.1));
+}
+
+.festival-card.gallery:hover {transform: rotateX(0);}
+.festival-card.gallery:hover .card-content {
+    opacity: 1;
+}
+
+.card-content {
+    opacity: 0;
+}
+
+.card-content span {
+    font-size: 12px;
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+.card-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 6px;
+}

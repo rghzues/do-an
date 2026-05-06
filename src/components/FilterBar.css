@@ -1,0 +1,53 @@
+.filter-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+    border: solid 1px rgb(197, 193, 193);
+    border-radius: 10px;
+    padding: 5px;
+    height: 80%;
+    width: 60%;
+    background: #e4f3f6;
+}
+
+.filter-bar.sort-mode {
+    justify-content: flex-end;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.sort-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.sort-content span {
+    letter-spacing: 2px;
+}
+
+.filter-bar input, select {
+    padding: 5px 40px;
+    border: solid 1px rgb(218, 215, 215);
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.sort-content button {
+    border: solid 1px rgb(218, 215, 215);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.sort-content button:hover {
+    background: rgb(210, 209, 209);
+}
+
+

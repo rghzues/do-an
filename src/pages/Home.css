@@ -1,0 +1,211 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper-slide-active {
+    pointer-events: auto;
+    transform: scale(1.1);
+}
+
+.banner .swiper-slide img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    transition: transform 4s ease;
+}
+
+.swiper-button-next {
+    right: 30px;
+}
+
+.swiper-button-prev {
+    left: 30px;
+}
+
+.slide {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.slide::before {
+    position: absolute;
+    top: 20px;
+    right: 3%;
+    content: "  \f186";
+    font-size: 30px;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #ffffff;
+    text-align: end;
+
+}
+
+.slide::after {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    content: " MOONLIGHT EVENTS ";
+    font-size: 30px;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #ffffff;
+    text-align: end;
+    font-family: "Playwrite DE SAS", cursive;
+}
+
+.title {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.box-title {
+    justify-items: end;
+}
+
+.title h1 {
+    font-size: 70px;
+    margin: 0;
+}
+
+.btn-slide {
+    font-size: 30px;
+    padding: 30px;
+    border: none;
+    border-radius: 6px;
+    background: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: solid 3px;
+    border-radius: 30px;
+    pointer-events: auto;
+}
+
+.btn-slide:hover {
+    background: #c3e1ec;
+    pointer-events: auto;
+    outline: 5px solid #c3e1ec;
+    color: #f34312;
+}
+
+h2 {
+    font-weight: 1000;
+    font-size: 60px;
+    margin: 0;
+}
+
+.festival-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.featured .swiper-slide img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    transition: transform 4s ease;
+}
+
+.featured .swiper-slide-active img {
+    transform: scale(1.1);
+}
+
+.swiper-button-prev {
+    left: 100px !important;
+}
+
+.swiper-button-next {
+    right: 100px !important;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 110%;
+    z-index: 1;
+    border: solid 1px rgb(218, 215, 215);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0px;
+    background: white;
+    padding: 30px;
+    color: black;
+    height: 20%;
+    width: 80%;
+}
+
+.filter div {
+    display: flex;
+    gap: 1.5%;
+    justify-content: center;
+    width: 80%;
+}
+
+.filter img {
+    width: 180px;
+    height: 150px;
+}
+
+.filter-btn {
+    right: 8%;
+    bottom: 24%;
+    position: absolute;
+    border: solid 1px rgb(218, 215, 215);
+    border-radius: 10px;
+    padding: 10px 50px;
+    background: linear-gradient(45deg, rgba(146, 179, 229,0.7), rgb(188, 243, 226,0.9));
+    color: rgb(36, 10, 11);
+}
+
+.filter-grid {
+    width: 70%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.month-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    gap: 50px;
+    padding: 0 10%;
+    padding-bottom: 5%;
+}
+
+.month-grid.three {
+    grid-template-columns: 1fr 1fr;
+}
+
+.empty {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    font-size: 20px;
+}
+
+.empty button {
+    border: none;
+    color: #f34312;
+    background: none;
+    cursor: pointer;
+}
+

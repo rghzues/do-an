@@ -1,0 +1,135 @@
+.rating-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+.rating-left {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  height: 60%;
+  width: 40vw;
+  padding: 28px;
+  border-radius: 28px;
+  background: linear-gradient(125deg, rgba(254, 11, 11, 0.5), white);
+  transition: 0.3s;
+}
+
+.rating-right {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  height: 60%;
+  width: 40vw;
+  padding: 28px;
+  border-radius: 28px;
+  background: linear-gradient(125deg, rgb(243, 187, 75, 0.3), white);
+  transition: 0.3s;
+
+}
+
+.rating-mid {
+  position: absolute;
+  top: 10%;
+  right: 25%;
+  height: 60%;
+  width: 40vw;
+  padding: 28px;
+  border-radius: 28px;
+  background: linear-gradient(125deg, #f34312, white);
+  transition: 0.3s;
+  z-index: 1;
+}
+
+.top-rating:hover {
+  z-index: 1;
+  transform: translateY(-6px);
+  box-shadow: 9px -11px 7px 3px #939292;
+}
+
+.rating-head {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.avatar {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rating-info {
+  flex: 1;
+}
+
+.rating-info h4 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.rating-info span {
+  color: #545353;
+  font-size: 14px;
+}
+
+.badge {
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #ffb200, #ff7a00);
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.rating-text {
+  margin: 24px 0;
+  line-height: 1.8;
+  color: #333;
+  font-size: 17px;
+}
+
+.rating-footer {
+  display: flex;
+  gap: 25px;
+  color: #666;
+  font-size: 15px;
+}
+
+.rating-footer span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.fes-rating {
+  position: absolute;
+  left: 20%;
+  top: -30%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  width: 30vw;
+  background: linear-gradient(90deg, white, rgba(0, 0, 0, 0.3));
+  border-radius: 60%;
+  opacity: 0;
+}
+
+.top-rating.rating-left:hover .fes-rating,
+.top-rating.rating-right:hover .fes-rating,
+.top-rating.rating-mid:hover .fes-rating {
+  opacity: 1;
+}
+
+.table-responsive{
+  padding-inline:5% ;
+}

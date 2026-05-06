@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h4 {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Playfair Display';
+  font-weight: 500;
+}
