@@ -19,6 +19,7 @@ import AdminCategories from "./pages/admin/AdminUsers";
 import AdminFile from "./pages/admin/AdminUsers";
 import AdminCountry from "./pages/admin/AdminUsers";
 import AdminReligion from "./pages/admin/AdminUsers";
+import Footer from './components/Footer';
 
 function App() {
   return (
